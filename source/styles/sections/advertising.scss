@@ -1,0 +1,24 @@
+.advertising {
+	background: url('../img/foto/adv.jpg') no-repeat;
+	background-size: cover;
+	background-position: 0 -34px;
+	padding: 40px 30px;
+	float: left;
+	width: 33%;
+	height: 226px;
+	margin: 20px 0;
+}
+
+.advertising__title {
+	max-width: 260px;
+	font-size: 36px;
+	font-family: $openSansLight;
+	color: #ffffff;
+	line-height: 1.2;
+	margin-bottom: 30px;
+}
+
+.advertising__btn {
+	background: $orange;
+	padding: 10px 50px;
+}

@@ -1,0 +1,124 @@
+.header {
+
+	color: $textHeaderFooter;
+}
+
+.header-wrapper {
+	background-color: $fontHeaderFooter;
+}
+
+.content {
+	@extend %clearfix;
+}
+
+.header-left {
+	padding-top: 38px;
+	display: flex;
+	float: left;
+}
+
+.logo {
+	text-transform: uppercase;
+	margin-right: 10px;
+}
+
+.logo__text {
+	font-size: 32px;
+	font-family: $bravo;
+}
+
+.logo__text-color {
+	color: $orange;
+	margin-right: 5px;
+}
+
+.city {
+	border-bottom: 1px solid $textHeaderFooter;
+}
+
+.header-right {
+	padding: 25px 0;
+	margin-right: 75px;
+	float: right;
+	display: flex;
+	align-items: center;
+}
+
+.header-right__button {
+	background: transparent;
+	border: 1px solid #ffffff;
+	margin-right: 60px;
+	cursor: pointer;
+	
+	&:hover {
+		background: #ffffff;
+		border: 1px solid #ffffff;
+		color: $textAll;
+		transition: 0.3s;
+	}
+}
+
+.header-right__button-margin {
+	margin-right: 10px;
+}
+
+.stars {
+	margin-right: 10px;
+	padding-right: 60px;
+}
+
+.stars__pic {
+	display: inline-block;
+	vertical-align: middle;
+	background-image: url(../img/sprite.png);
+	background-position: -166px -280px;
+	width: 22px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.stars__text {
+	display: inline-block;
+	vertical-align: middle;
+	color: $textLight;
+}
+
+.info {
+	position: relative;
+	display: flex;
+	align-items: center;
+	border-left: 1px solid $textLight;
+	padding-left: 23px;
+}
+
+.info__avatar {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 42px;
+	width: 42px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 20px;
+ }
+
+.info__number {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	top: -4px;
+	left: 51px;
+	font-size: 12px;
+	width: 18px;
+	height: 18px;
+	position: absolute;
+	border-radius: 50%;
+	background: $orange;
+}
+
+.info__name {
+	color: $textLight;
+}
+
+

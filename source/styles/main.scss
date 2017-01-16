@@ -1,0 +1,17 @@
+// misc
+@import '_misc/variables.scss';
+@import '_misc/mixins.scss';
+@import '_misc/adjustment.scss';
+@import '_misc/common.scss';
+@import '_misc/fonts.scss';
+
+//sections
+@import 'sections/header.scss';
+@import 'sections/nav.scss';
+@import 'sections/filter.scss';
+@import 'sections/sorting.scss';
+@import 'sections/apartmentsList.scss';
+@import 'sections/apartmentsInfo.scss';
+@import 'sections/advertising.scss';
+@import 'sections/similar';
+@import 'sections/footer.scss';

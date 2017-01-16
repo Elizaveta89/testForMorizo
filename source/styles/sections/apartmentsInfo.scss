@@ -1,0 +1,206 @@
+.apartments-info {
+	height: 100%;
+	overflow: hidden;
+	float: right;
+	width: 55%;
+	background: #ffffff;
+	padding: 30px 30px 10px;
+	margin-bottom: 10px;
+}
+
+.apartments-info__title {
+	font-size: 36px;
+	margin-bottom: 15px;
+}
+
+.apartments-info__address {
+	font-family: $openSans;
+	font-size: 18px;
+	margin-bottom: 20px;
+	color: $textLight;
+}
+
+.apartments-info__price {
+	display: flex;
+	align-items: baseline;
+	margin-bottom: 20px;
+}
+
+.apartments-info__price-big {
+	font-size: 36px;
+	color: $textAll;
+	margin-right: 20px;
+}
+
+.apartments-info__price-small {
+	font-size: 18px;
+}
+
+.apartments-info__star {
+	float: right;
+	background-image: url(../img/sprite.png);
+	background-position: -114px -280px;
+	width: 22px;
+	height: 20px;
+}
+
+.apartments-info__map {
+	height: 235px;
+	margin-bottom: 20px;
+}
+
+.apartments-info__contact {
+	background: $backgroundContact;
+	padding: 18px;
+	margin-bottom: 20px;
+}
+
+.apartments-info__name {
+	@include inlineblock(middle);
+}
+
+.apartments-info__name-text {
+	font-family: $openSansLight;
+	font-size: 18px;
+}
+
+.apartments-info__name-phone{
+	font-size: 24px;
+}
+
+.apartments-info__button {
+	@include inlineblock(middle);
+	float: right;
+}
+
+.apartments-info__btn {
+	background: $orange;
+	padding: 10px 30px;
+
+
+}
+
+.apartments-info__photo {
+	margin-bottom: 40px;
+	position: relative;
+	height: 125px;
+	overflow: hidden;
+
+	&:hover {
+		transition: 0.3s;
+		.apartments-info__photo-arrow_left {
+			display: block;
+		}
+		.apartments-info__photo-arrow_right {
+			display: block;
+		}
+	}
+
+}
+
+.apartments-info__photo-list {
+	display: inline-flex;
+	align-items: center;
+	position: relative;
+
+}
+
+.apartments-info__photo-item {
+	display: flex;
+	align-items: center;
+	width: 140px;
+	height: 125px;
+	overflow: hidden;
+	border-right: 2px solid #fff;
+}
+
+.apartments-info__photo-arrow_left {
+	display: none;
+	background-image: url(../img/sprite.png);
+	background-position: 0px -280px;
+	width: 27px;
+	height: 22px;
+	top: 40%;
+	position: absolute;
+	left: 0;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+.apartments-info__photo-arrow_right {
+	display: none;
+	background-image: url(../img/sprite.png);
+	background-position: 0px -280px;
+	width: 27px;
+	height: 22px;
+	position: absolute;
+	right: 0;
+	top: 40%;
+	transform: rotate(180deg);
+	margin-right: 10px;
+	cursor: pointer;
+}
+
+.apartments-info__description {
+	margin-bottom: 40px;
+}
+
+.apartments-info__description-title {
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+
+.apartments-info__description-text {
+	font-family: $openSans;
+	color: $textLight;
+}
+
+.apartments-info__size {
+	background: $backgroundContact;
+	padding: 18px 15px;
+	margin-bottom: 40px;
+}
+
+.apartments-info__size-list {
+	display: flex;
+	align-items: center;
+}
+
+.apartments-info__size-item {
+	margin-right: 53px;
+
+	&:last-child {
+		margin-right: 0;
+	}
+}
+
+.apartments-info__size-number {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+.apartments-info__size-name {
+	font-family: $openSansLight;
+	color: $textLight;
+}
+
+.apartments-info__catalog {
+	display: flex;
+	margin-bottom: 40px;
+}
+
+.apartments-info__catalog-left {
+	margin-right: 100px;
+}
+
+.apartments-info__catalog-title {
+	font-size: 16px;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+}
+
+.apartments-info__catalog-text {
+	font-family: $openSans;
+	color: $textLight;
+}
+

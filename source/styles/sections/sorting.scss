@@ -1,0 +1,47 @@
+.sorting {
+	margin-top: 20px;
+}
+
+.sorting-nav {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	line-height: 0.7;
+	padding-bottom: 15px;
+	border-bottom: 1px solid $grey;
+	margin-bottom: 20px;
+}
+
+.sorting__title {
+	margin-right: 30px;
+}
+
+.sorting-nav__list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 60px;
+}
+
+.sorting-nav__item {
+	display: flex;
+	align-items: center;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.sorting-nav__arrow {
+	background-image: url(../img/sprite.png);
+	background-position: -396px -197px;
+	width: 12px;
+	height: 14px;
+	margin-left: 7px;
+}
+
+.sorting-nav__item-active {
+	background-color: $activeItem;
+}
+
+.sorting__title-show {
+	margin-right: 10px;
+}

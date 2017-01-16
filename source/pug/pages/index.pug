@@ -1,0 +1,16 @@
+extends ../templet
+include ../sections/_mixins.pug
+
+block title
+	title Ваша недвижимость
+
+block body
+	.wrapper
+
+		include ../sections/header
+		include ../sections/nav
+		include ../sections/filter
+		include ../sections/sorting
+		include ../sections/main
+	include ../sections/footer
+
